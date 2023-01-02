@@ -1,0 +1,109 @@
+.sbtn-modal {
+    color: #fff;
+    border: none;
+}
+
+
+.signin-header {
+    border-bottom: none;
+    padding-bottom: 0rem;
+    margin-bottom: 3rem;
+}
+.signin-icon-div, .line-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.7rem;
+}
+.icon-btns {
+    background-color: #00112c;
+    margin: 1rem 0.2rem;
+    width: 40px;
+}
+.icon-btns:hover {
+    background-color: #60b801;
+}
+.line {
+    width: 150px;
+    height: 2px;
+    margin: 0px 6px;
+}
+.signin-form {
+    padding-bottom: 2rem;
+}
+.form-div {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.s-form, .label {
+    width: 350px!important;
+    height: 59px!important;
+    border-top-left-radius: 0rem!important;
+    border-bottom-left-radius: 0rem!important;
+    border-left-width: 0px!important;
+}
+.input-group-text {
+    background-color: #fff!important;
+    border-right-width: 0px!important;
+    border-right-color: transparent!important;
+    border-right-style:none!important;
+}
+
+.mb-1 {
+    margin-bottom: 1.7rem!important;
+}
+.m-0 {
+    margin: 0px;
+}
+.signin-btn {
+    width: 400px;
+    height: 50px;
+    background-color: #60b801;
+}
+.signin-btn:hover {
+    background-color: #60b801c9;
+}
+.signup-cta {
+    color:#60b801
+}
+@media (max-width: 800px) {
+    .form-control {
+        width: 100%;
+        
+    }
+    .form-div {
+        justify-content: unset;
+    }
+    .signin-btn {
+        width: 200px;
+        height: 45px;
+    }
+    .signin-header {
+        padding-top: 2rem;
+    }
+    .input-group {
+        flex-wrap: nowrap;
+    }
+    .label {
+        font-size: 12px;
+        
+    }
+    .fs-md-13 {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+.success-modal-header {
+    display: block;
+    border-bottom: none;
+    margin-top: 1rem;
+}
+.success-modal-body {
+    padding: 2rem;
+    text-align: center;
+}
